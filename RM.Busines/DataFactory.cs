@@ -8,7 +8,8 @@ namespace RM.Busines
     {
         public static IDbHelper SqlDataBase()
         {
-            return new SqlServerHelper(ConfigHelper.GetAppSettings("SqlServer_RM_DB"));
+        //    return new SqlServerHelper(ConfigHelper.GetAppSettings("SqlServer_RM_DB"));
+            return new SqlLiteHelper(ConfigHelper.GetAppSettings("SqlLite_RM_DB"));
         }
     }
 }

@@ -4,6 +4,7 @@
   <add key="ConStringEncrypt" value="false" />
   <!-- SqlServer连接字符串:Server=服务器地址;Database=库名;Uid=用户;Pwd=密码-->
   <add key="SqlServer_RM_DB" value="Server=.;Database=RM_Db;Uid=sa;Pwd=xjj791225" />
+  <add key="SqlLite_RM_DB" value="Data Source=F:\allprogram\ManageWeb\database\rm_db" />
   <!-- 系统默认登录账户 -->
   <add key="CurrentUserName" value="Administrator" />
   <!-- 系统默认登录密码 -->
